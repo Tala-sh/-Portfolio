@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            <h1>Tala Sharayre</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">AboutMe</a></li>
+                <li><a href="#skills"Skills>Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!--id prefare to use in js but class prefare to use in css  -->
+      <div class="btn-container">
+        <button id="theme-toggle" class="theme-btn">Toggle Theme</button>
+        <button  id="switch-language"  class="theme-btn">language</button>
+      </div>
+
+    </header>
+
+    <main>
+
+        <section id="about" class=" section  ">
+            <div class="about-container">
+        <div class="about-photo">
+          <img src="assets/profile.jpg" alt="Profile Photo">
+        </div>
+        <div class="about-content">
+          <h1>Hello, I'm Tala Sharayre</h1>
+          <p>Computer Science Graduate & Software Developer. Passionate about web development, clean architecture, and building user-centric digital experiences.</p>
+        </div>
+      </div>
+
+
+        </section>
+
+        <section id="skills" class="section">
+         <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML & CSS</div>
+        <div class="skill-card">JavaScript (ES6+)</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">FastAPI</div>
+        <div class="skill-card">PostgreSQL & SQLite</div>
+        <div class="skill-card">Git & GitHub</div>
+      </div>
+
+        </section>
+
+    
+         <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 00 -->
+        <article class="project-card">
+          <span class="project-number">Project 00</span>
+          <h3>Terminal & Git Workflow</h3>
+          <p>Mastering Linux CLI navigation, Bash scripting, and Git version control workflows.</p>
+        </article>
+
+        <!-- Project 01 -->
+        <article class="project-card">
+          <span class="project-number">Project 01</span>
+          <h3>project-html</h3>
+          <p>Building the structural skeleton of the webpage using semantic elements, ensuring clear document hierarchy and accessibility</p>
+        </article>
+
+        <!-- Project 02 -->
+        <article class="project-card">
+          <span class="project-number">Project 02</span>
+          <h3>project-css</h3>
+          <p>Styling the interface with modern CSS, utilizing Flexbox and Grid layouts, custom variables, and responsive media queries.</p>
+        </article>
+
+        <!-- Project 03 -->
+        <article class="project-card">
+          <span class="project-number">Project 03</span>
+          <h3>project-javascript</h3>
+          <p>Dynamic programming language that enables interactive features, handles browser events, and manipulates the DOM in real time.</p>
+        </article>
+
+         </section> 
+
+     <section id="hobbies" class="section">
+     <h2 class="section-title">Hobbies & Interests</h2>
+      <ul class="hobbies-list">
+        <li> Pencil Sketching & Fashion Illustration</li>
+        <li> Motorsport (Formula 1 & MotoGP)</li>
+        <li> Cinema & Anime</li>
+        <li> Coffee Brewing & Latte Art</li>
+      </ul>
+
+         </section>
+
+
+         <section id="contact"  class="section">
+            <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+
+         </section>
+
+         <footer>
+              <p>&copy; 2026 Tala Sharayre. All rights reserved.</p>
+         </footer>
+
+
+
+
+
+
+
+    </main>
+    
+</body>
+</html>
